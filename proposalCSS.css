@@ -1,0 +1,90 @@
+﻿html {
+	font-family: 'Sanchez', Arial, Helvetica;
+	font-weight: 600;
+	color: white;
+	background: linear-gradient(to bottom, rgb(255,255,255), rgb(135,211,226));
+	height: auto;
+	min-height: 100%;
+}
+
+.contentSection {
+	width: 100%;
+	max-width: 1030px;
+	margin: auto;
+	text-align: center;
+	color: rgb(94,68,98);
+	margin-bottom: 40px;
+}
+
+#logoImage {
+	width:100%;
+	max-width: 800px;
+}
+
+#MobileWF {
+	width:100%;
+	max-width: 621px;
+	margin-bottom: 25px;
+}
+
+#DesktopWF {
+	width:100%;
+	max-width: 959px;
+}
+
+#Concepts {
+	width:100%;
+	max-width: 1300px;
+}
+
+h1 {
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 18px;
+}
+
+.tagLine {
+	font-size: 48px;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 744px) {
+
+	.tagLine {
+		font-size: 35px;
+		margin-bottom: -20px;
+	}
+
+		h1 {
+		font-size: 27px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 476px) {
+
+	.tagLine {
+		font-size: 22px;
+		margin-bottom: -20px;
+	}
+
+	h1 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 12px;
+	}
+
+}
+
+
+

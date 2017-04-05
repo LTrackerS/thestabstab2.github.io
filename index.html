@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="proposalCSS.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet"/> 
+    <title>Hamzah Ali Project 1 MDDN352</title>
+</head>
+
+
+<body>
+    <div class="contentSection">
+        <img id="logoImage" src="images/logofarsightdone.png"/>
+        <h1 class="tagLine">Seeing is Believing</h1>
+        <br/>
+        <br/>
+    </div>
+
+    <div class="contentSection">
+        <h1>Description:</h1>
+        <p>FarSight is a weather service for both mobile and desktop platforms that aims to provide users with a more personal weather information experience. 
+            This will be achieved with the service removing unnecessary large amounts of weather data commonly found on weather app’s, and replacing it with user submitted images of the weather in realtime across multiple locations. 
+            Images of weather will be easier for users to digest and understand compared to a barrage of numbers, and will provide further insights of what the locations would look like if you were to travel there.</p>
+        <p>However to take this feature one step further, FarSight will allow users to see images of the weather for up to the next two days in the future. 
+            FarSight will remember weather conditions for different hours during the day, and if a similar day and hour will ever appear in the future users will be able to view an image estimate of what the weather will look like.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Target Audience:</h1>
+        <p>The target audience of this weather service is mostly late teens and adults over the age of 18. This is because it is an age where planning social activities reaches a high and checking what the weather will be like is an important task. 
+            FarSight requires only basic technological knowledge to gain information and use out of it. The service may be especially useful for any occupation that requires outdoor planning as a method of envisioning the area before the day comes.</p>
+        <p>In terms of users there will be two different main types. 
+            The first and most frequent will be those who simply want to check the weather at certain locations, either for their own plans or just for fun, and the second type would be users who often go out to various locations, 
+            and like to capture and share images of the places they go.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Technical Requirements:</h1>
+        <p>This service will be presented in an responsive webpage format, so it will work for all mobile devices along with desktops as long as they have internet access. 
+            The webpage itself will use CSS3 and Javascript to make its interactions smooth and reactive, and the image sourcing function will be made using an Instagram API. 
+            The API will filter images based on a certain hashtag (e.g. #weather) and location data to sort images into the correct geological location on the service.</p>
+        <p>The image glimpse into the future will function in an opposite sort of sense. The valid image information will be stored in a google database API under a time and weather condition. 
+            If these conditions will be met again in the next 48 hours, the previous images will be available for display. </p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Wireframes:</h1>
+
+        <img id="MobileWF" src="images/mobilewireframesdone.png"/>
+        <img id="DesktopWF" src="images/desktopwireframe.png"/>
+
+        <p>The website layout is fairly simple. For Mobile devices you will first see a menu with a list of locations and brief information detailing what the weather is like. 
+            The information consists of a weather icon, and two average temperatures. After selecting a location and any sub location afterwards, the user will see a gallery of weather images in that location that were uploaded during that day. 
+            The user can then use the navigation bar to view images on what the next day would look like, and then another day beyond that as well.</p>
+        <p>Desktop platforms will be similar to mobile, however it has a lot more space to present all of the information needed. 
+            The location selection and navigation has been moved to a left hand sidebar, and there will always be a display of images using up the rest of the screen. 
+            If no location has currently been selected, Weather images across all of New Zealand will be displayed. Space for other links will also be available at the top.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Style Plan:</h1>
+
+        <img id="Concepts" src="images/concepts.png"/>
+
+        <p>These are two mobile examples of what the style of the website will look like. The colour scheme features very light and simple colours, with shades of blue, white and orange to create a weather feel.</p>
+        <p>The font I will be using is the same as this proposal website, Sanchez. This is mainly because its clear and easy to read, but also the non-standard font will make the service feel more unique.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Risks and Challenges:</h1>
+
+        <p>Some risks are available in the form of image integrity from submitting users. This houses a various amount of issues such as irrelevant images from instagram users unnecessarily adding a weather hashtag to their image,
+             heavily filtered images that do not accurately depict the weather, and a discrepancy between image upload time compared to the image capture time.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>Feature Expansion:</h1>
+        <p>To build the service further, computer vision technology could be added to filter out bad or irrelevant images that create noise.</p>
+        <p>Additionally an anonymous rating system that allows users to rate images they see during the day could be useful. 
+            This will help the database save only the top images, which will provide more accurate image weather predictions in the future.</p>
+    </div>
+
+    <div class="contentSection">
+        <h1>References:</h1>
+        <p>Eye Icon - https://thenounproject.com/search/?q=eye&i=894540
+            <br/>
+            Weather Icon - https://thenounproject.com/search/?q=weather&i=838831
+            <br/>
+            Forest Icon - https://thenounproject.com/search/?q=forest&i=715800
+            <br/>
+            Sanchez Font - https://fonts.google.com/specimen/Sanchez </p>
+        <p>All Wellington weather images were labeled for reuse and retrieved from wikimedia.org, pixabay, stuff.co.nz and radionz.co.nz</p>
+    </div>
+
+</body>
+
+
+</html>
